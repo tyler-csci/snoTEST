@@ -76,205 +76,111 @@
         </div>
         
         <div class="separator-line separator-primary"></div>
-
-
-        <div class="testimonials-1 section-image" style="background-image: url('img/bg19.jpg')">
+ <div class="features-6">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 ml-auto mr-auto text-center">
-                        <h2 class="title">What is ALPHA?</h2>
-                        <h4 class="description text-white">If you’re selected for ALPHA you’ll also get 3 tickets,
-                            opportunity to access Investor Office Hours and Mentor Hours and much more all for
-                            €850.</h4>
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">The Future is Now.</h2>
+                        <h4>Businesses and users alike deserve the best.</h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <card type="testimonial">
-                            <img slot="avatar" class="img img-raised" src="img/michael.jpg">
-                            <p class="card-description">
-                                The networking at Web Summit is like no other European tech conference.
-                            </p>
-                            <template slot="raw-content">
-                                <div class="icon icon-success">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <div class="card-footer">
-                                    <h4 class="card-title">Michael Elijah</h4>
-                                    <p class="category">@michaelelijah</p>
-                                </div>
-                            </template>
-                        </card>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-info">
+                                <i class="now-ui-icons business_chart-pie-36"></i>
+                            </div>
+                            <div class="description">
+                                <h5 class="info-title">Web Development</h5>
+                                <p>Extensive research is done to meet your needs and that of the market. </p>
+                            </div>
+                        </div>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-danger">
+                                <i class="now-ui-icons design_palette"></i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">SEO</h4>
+                                <p>Development does not start until you are 100% happy with the design of your website.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <card type="testimonial">
-                            <img slot="avatar" class="img img-raised" src="img/olivia.jpg">
-                            <p class="card-description">
-                                The connections you make at Web Summit are unparalleled, we met users all over the
-                                world.
-                            </p>
-                            <template slot="raw-content">
-                                <div class="icon icon-success">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <div class="card-footer">
-                                    <h4 class="card-title">Olivia Harper</h4>
-                                    <p class="category">@oliviaharper</p>
-                                </div>
-                            </template>
-                        </card>
+                        <div class="phone-container">
+                            <img v-lazy="'img/iphone2.png'" />
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <card type="testimonial">
-                            <img slot="avatar" class="img img-raised" src="img/james.jpg">
-                            <p class="card-description">
-                                Web Summit will increase your appetite, your inspiration, and your network.
-                            </p>
-                            <template slot="raw-content">
-                                <div class="icon icon-success">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <div class="card-footer">
-                                    <h4 class="card-title">James Logan</h4>
-                                    <p class="category">@jameslogan</p>
-                                </div>
-                            </template>
-                        </card>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pricing-2">
-            <div class="pricing-2" id="pricing-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 ml-auto mr-auto text-center">
-                            <h2 class="title">Pick the best plan for you</h2>
-                            <tabs pills type="success" centered>
-                                <tab-pane label="Legal Entity"></tab-pane>
-                                <tab-pane label="Individual"></tab-pane>
-                            </tabs>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-success">
+                                <i class="now-ui-icons design-2_ruler-pencil"></i>
+                            </div>
+                            <div class="description">
+                                <h5 class="info-title">Marketing</h5>
+                                <p>Your dream website becomes a reality.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <card type="pricing" plain>
-                                <h6 class="category">Enterprise</h6>
-                                <h1 class="card-title">
-                                    <small>$</small>
-                                    59
-                                </h1>
-                                <ul>
-                                    <li>
-                                        <b>10GB</b> Disk Space
-                                    </li>
-                                    <li>
-                                        <b>100GB</b> Monthly Bandwidth
-                                    </li>
-                                    <li>
-                                        <b>20</b> Email Accounts
-                                    </li>
-                                    <li>
-                                        <b>Unlimited</b> subdomains
-                                    </li>
-                                </ul>
-                                <n-button type="success" round>
-                                    Sign Up
-                                </n-button>
-                            </card>
-                        </div>
-                        <div class="col-md-4">
-                            <card type="pricing"
-                                  raised
-                                  class="card-background"
-                                  style="background-image: url('img/pricing2.jpg')">
-
-                                <h6 class="category text-info">Professional</h6>
-                                <h1 class="card-title">
-                                    <small>$</small>
-                                    29
-                                </h1>
-                                <ul>
-                                    <li>
-                                        <b>5GB</b> Disk Space
-                                    </li>
-                                    <li>
-                                        <b>50GB</b> Monthly Bandwidth
-                                    </li>
-                                    <li>
-                                        <b>10</b> Email Accounts
-                                    </li>
-                                    <li>
-                                        <b>Unlimited</b> subdomains
-                                    </li>
-                                </ul>
-                                <n-button class="btn-neutral" round>
-                                    Sign Up
-                                </n-button>
-
-                            </card>
-                        </div>
-                        <div class="col-md-4">
-                            <card type="pricing" plain>
-
-                                <h6 class="category">Standard</h6>
-                                <h1 class="card-title">
-                                    <small>$</small>
-                                    17
-                                </h1>
-                                <ul>
-                                    <li>
-                                        <b>2GB</b> Disk Space
-                                    </li>
-                                    <li>
-                                        <b>25GB</b> Monthly Bandwidth
-                                    </li>
-                                    <li>
-                                        <b>5</b> Email Accounts
-                                    </li>
-                                    <li>
-                                        <b>Unlimited</b> subdomains
-                                    </li>
-                                </ul>
-                                <a href="#pablo" class="btn btn-success btn-round">
-                                    Get Started
-                                </a>
-
-                            </card>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-success">
+                                <i class="now-ui-icons education_atom"></i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Performance Testing</h4>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <div class="section section-contact-us text-center">
             <div class="container">
-                <h2 class="title">Want to work with us?</h2>
-                <p class="description">Your project is very important to us.</p>
+                <h2 class="title">Give us a shout!</h2>
+                <p class="description">Send us a quick message and we'll get back to you</p>
+                <form 
+                    class="index-form"
+                    name="index-form"
+                    action="/thankyou"
+                    method="post"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                    >
+                <input type="hidden" name="contact-us" value="contact-us" />
                 <div class="row">
                     <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
                         <fg-input
-                                class="input-lg"
-                                placeholder="First Name..."
-                                v-model="form.firstName"
-                                addon-left-icon="now-ui-icons users_circle-08">
+                            name="name"
+                            class="input-lg"
+                            placeholder="First Name..."
+                            v-model="form.firstName"
+                            addon-left-icon="now-ui-icons users_circle-08">
                         </fg-input>
                         <fg-input
-                                class="input-lg"
-                                placeholder="Email Here..."
-                                v-model="form.email"
-                                addon-left-icon="now-ui-icons ui-1_email-85">
+                            name="email"
+                            class="input-lg"
+                            placeholder="Email Here..."
+                            v-model="form.email"
+                            addon-left-icon="now-ui-icons ui-1_email-85">
                         </fg-input>
+                        
                         <div class="textarea-container">
-                            <textarea class="form-control"
-                                      name="name" rows="4" cols="80"
-                                      v-model="form.message"
-                                      placeholder="Type a message..."></textarea>
+                            <textarea 
+                                name="message"
+                                class="form-control"
+                                rows="4" 
+                                cols="80"
+                                v-model="form.message"
+                                placeholder="Type a message..."></textarea>
                         </div>
-                        <div class="send-button">
-                            <n-button type="success" round block size="lg">Send Message</n-button>
+                        <div class="col-md-4 ml-auto mr-auto text-center">
+                            <button class="btn btn-success btn-round mt-4 btn-lg">
+                                Let's talk
+                            </button>
                         </div>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
