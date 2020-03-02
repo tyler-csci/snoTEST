@@ -4,30 +4,62 @@
             <div class="page-header-image"
                  style="background-image: url('img/header.jpg')">
             </div>
-            <div class="content-center">
-                <h1 class="title">snoDEV</h1>
-                <div class="text-center">
-                    <a href="#pablo" class="btn btn-success btn-icon  btn-round">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-success btn-icon btn-round">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-success btn-icon btn-round">
-                        <i class="fab fa-google-plus"></i>
-                    </a>
-                </div>
+             <div class="content-center">
+                <h2 class="title">snoDEV</h2>
+                <h3>BRINGING IDEAS TO LIFE</h3>
+                <a href="https://www.linkedin.com/company/snodev" target="_blank" rel="noopener" class="btn btn-success btn-icon  btn-round">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/gosnodev" target="_blank" rel="noopener" class="btn btn-success btn-icon  btn-round">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/gosnodev" target="_blank" rel="noopener" class="btn btn-success btn-icon btn-round">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/gosnodev" target="_bank" rel="noopener" class="btn btn-success btn-icon btn-round">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
+
         <div class="section section-about-us">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Who we are?</h2>
-                        <h5 class="description">According to the National Oceanic and Atmospheric Administration, Ted,
-                            Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs
-                            year down to low ice extent in the Pacific and a late drop in ice extent in the Barents
-                            Sea.</h5>
+                        <h2 class="title">Simpler. Faster. Better.</h2>
+                        <h5 class="description">SnoDEV uses latest technologies and industry best practices to ensure your website looks and 
+                                performs better than any other. Whether you need a personal site or something for business, SnoDEV is here to 
+                                provide you with a responsive, efficient, secure, and aesthetic website.
+                            </h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-info icon-circle">
+                                    <i class="now-ui-icons objects_globe"></i>
+                                </div>
+                                <h4 class="info-title">Single Page Applications</h4>
+                                <p class="description">Load once. After that, your users won't have to wait when they browse your site.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-info icon-circle">
+                                    <i class="now-ui-icons education_atom"></i>
+                                </div>
+                                <h4 class="info-title">Server-Sided Rendering</h4>
+                                <p class="description">Better SEO, and faster time-to-content. SSR user experience is dramatically improved from standard websites.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-info icon-circle">
+                                    <i class="now-ui-icons education_atom"></i>
+                                </div>
+                                <h4 class="info-title">Progressive Web Applications</h4>
+                                <p class="description">Install, load offline, and get the same experience as a mobile app.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="separator separator-success"></div>
@@ -78,7 +110,7 @@
             </div>
         </div>
 
-        <div class="testimonials-1 section-image" style="background-image: url('img/bg19.jpg')">
+        <div class="section testimonials-1 section-image" style="background-image: url('img/bg19.jpg')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 ml-auto mr-auto text-center">
