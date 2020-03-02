@@ -2,10 +2,10 @@
     <div class="wrapper landing-page">
         <div class="page-header page-header-small rellax-header">
             <div class="page-header-image"
-                 style="background-image: url('img/bg26.jpg')">
+                 style="background-image: url('img/header.jpg')">
             </div>
             <div class="content-center">
-                <h1 class="title">Wavertocracy</h1>
+                <h1 class="title">snoDEV</h1>
                 <div class="text-center">
                     <a href="#pablo" class="btn btn-success btn-icon  btn-round">
                         <i class="fab fa-facebook-square"></i>
