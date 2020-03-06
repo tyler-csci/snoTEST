@@ -6,22 +6,14 @@
                 <a href="/">
                     <img src="/img/logo.png" width="60" height="40" alt="snoDEV logo">
                 </a>
-                <el-popover
-                        ref="popover1"
-                        popper-class="popover"
-                        placement="bottom"
-                        width="300"
-                        trigger="hover">
-                    <div class="popover-body">Hi there! Scroll around to see what we are all about!</div>
-                </el-popover>
         </template>
 
         <template slot="navbar-menu">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item category">
-                    <a href="/" class="nav-link">
+                    <router-link to="/" class="nav-link">
                         Home
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
                     <a href="/services" class="nav-link category">
