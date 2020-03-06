@@ -125,7 +125,7 @@
                             </div>
                             <div class="description">
                                 <h4 class="info-title">Performance Testing</h4>
-                                <p></p>
+                                <p>Get a full audit on your current website. See how it ranks and how it can be improved.</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,6 @@
                 <div class="row">
                     <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
                         <form 
-                            class="index-form"
                             name="index-form"
                             action="/thankyou"
                             method="post"
