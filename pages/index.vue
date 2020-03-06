@@ -144,7 +144,6 @@
                             name="index-form"
                             action="/thankyou"
                             method="post"
-                            data-netlify="true"
                         >
                         <input type="hidden" name="contact-us" value="contact-us" />
                             <fg-input
