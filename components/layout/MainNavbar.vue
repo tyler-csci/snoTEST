@@ -16,29 +16,29 @@
                     </router-link>
                 </li>
                 <li class="nav-item">
-                    <a href="/services" class="nav-link category">
+                    <router-link to="/services" class="nav-link category">
                         Services
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a href="/showcase" class="nav-link category" >
+                    <router-link to="/showcase" class="nav-link category" >
                         Showcase
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a href="/about" class="nav-link category">
+                    <router-link to="/about" class="nav-link category">
                         About
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a href="/blog-posts" class="nav-link category">
+                    <router-link to="/blog-posts" class="nav-link category">
                         Blog
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a href="/contact" class="nav-link category">
+                    <router-link to="/contact" class="nav-link category">
                         Contact
-                    </a>
+                    </router-link>
                 </li>
             </ul>
         </template>
