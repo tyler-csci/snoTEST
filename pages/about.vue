@@ -1,16 +1,24 @@
 <template>
-    <div class="wrapper about-page">
+    <div class="wrapper landing-page">
         <div class="page-header page-header-small rellax-header">
             <div class="page-header-image"
-                 style="background-image: url('img/bg32.jpg')">
+                 style="background-image: url('img/bg7.jpg')">
             </div>
             <div class="content-center">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto">
-                        <h1 class="title">About Us</h1>
-                        <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
-                    </div>
-                </div>
+                <h2 class="title">snoDEV</h2>
+                <h3>BRINGING IDEAS TO LIFE</h3>
+                <a href="https://www.linkedin.com/company/snodev" target="_blank" rel="noopener" class="btn btn-success btn-icon  btn-round">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/gosnodev" target="_blank" rel="noopener" class="btn btn-success btn-icon  btn-round">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/gosnodev" target="_blank" rel="noopener" class="btn btn-success btn-icon btn-round">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/gosnodev" target="_bank" rel="noopener" class="btn btn-success btn-icon btn-round">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
         <div class="section">
