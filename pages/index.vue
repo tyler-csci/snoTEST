@@ -140,8 +140,10 @@
                 <div class="row">
                     <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
                         <form 
-                            data-netlify="true"
-                            data-netlify-honeypot="bot-field"
+                            class="index-form"
+                            name="index-form"
+                            action="/thankyou"
+                            method="post"
                         >
                         <input type="hidden" name="contact-us" value="contact-us" />
                             <fg-input
