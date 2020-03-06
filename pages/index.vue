@@ -147,7 +147,6 @@
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                         >
-                            <input type="hidden" name="contact-us" value="contact-us" />
                             <fg-input
                                     class="input-lg"
                                     placeholder="First Name..."
