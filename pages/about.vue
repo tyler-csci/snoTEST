@@ -375,6 +375,11 @@
       [Select.name]: Select,
       [Option.name]: Option,
     },
+    head() {
+        return {
+            titleTemplate: "%s | about"
+        };
+    },
     data() {
       return {
         form: {
