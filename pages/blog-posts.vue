@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper blog-posts">
+    <div class="wrapper landing-page">
         <div class="page-header page-header-small rellax-header">
             <div class="page-header-image" 
                 style="background-image: url('img/bg11.jpg') ;">
