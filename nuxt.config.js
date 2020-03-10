@@ -4,6 +4,16 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  generate: {
+    routes: [
+      '/',
+      '/services',
+      '/showcase',
+      '/about',
+      '/contact',
+      '/blog-posts'
+    ]
+  },
   router: {
     base: '/',
     linkExactActiveClass: 'active',

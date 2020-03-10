@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 </template>
 <script>
   import { Card, Button, Badge, InfoSection, FormGroupInput, Checkbox } from '@/components';
