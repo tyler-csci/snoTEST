@@ -1,8 +1,8 @@
 {
   "name": "snoDEV",
   "version": "1.0.0",
-  "description": "Nuxt Now UI Kit PRO - Premium Nuxt.js UI Kit for Bootstrap",
-  "author": "cristijora",
+  "description": "snoDEV is a web development company based in Bozeman, MT. We use the latest and most popular technologies of 2020 to create blazing fast, responsive, and elegant websites & web applications.",
+  "author": "Tyler Ewald",
   "private": true,
   "scripts": {
     "dev": "nuxt",
