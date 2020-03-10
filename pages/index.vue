@@ -69,7 +69,7 @@
         <div class="section">
             <div class="about-description text-center">
                 <div class="container">
-                    <h5>People get a Ferrari for the looks, and because of what's underneath the hood.</h5>
+                    <h5>People get a Ferrari for two reasons: the looks and the engine.</h5>
                 </div>
             </div>
         </div>
