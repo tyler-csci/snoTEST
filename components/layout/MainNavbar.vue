@@ -3,9 +3,9 @@
             :color-on-scroll="colorOnScroll"
             menu-classes="ml-auto">
         <template slot-scope>
-                <a href="/">
-                    <img src="/img/logo.png" width="60" height="40" alt="snoDEV logo">
-                </a>
+                <router-link to="/">
+                    <img src="/img/logo.png" width="50" height="50" alt="snoDEV logo">
+                </router-link>
         </template>
 
         <template slot="navbar-menu">
