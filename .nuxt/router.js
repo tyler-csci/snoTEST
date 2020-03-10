@@ -15,7 +15,6 @@ const _d82da978 = () => interopDefault(import('../pages/product.vue' /* webpackC
 const _112e0a04 = () => interopDefault(import('../pages/profile.vue' /* webpackChunkName: "pages/profile" */))
 const _519613ae = () => interopDefault(import('../pages/sections.vue' /* webpackChunkName: "pages/sections" */))
 const _01e840d3 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
-const _c7b86238 = () => interopDefault(import('../pages/starter.vue' /* webpackChunkName: "pages/starter" */))
 const _1df8e970 = () => interopDefault(import('../pages/thankyou.vue' /* webpackChunkName: "pages/thankyou" */))
 const _2baf88e7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -83,10 +82,6 @@ export const routerOptions = {
     path: "/signup",
     component: _01e840d3,
     name: "signup"
-  }, {
-    path: "/starter",
-    component: _c7b86238,
-    name: "starter"
   }, {
     path: "/thankyou",
     component: _1df8e970,

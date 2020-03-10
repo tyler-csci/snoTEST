@@ -6,32 +6,29 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
+                        <router-link to="/">
+                            snoDEV
+                        </router-link>
                     </li>
                     <li>
-                        <a href="https:///presentation.creative-tim.com">
+                        <router-link to="/about">
                             About Us
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="https:///blog.creative-tim.com">
-                            Blog
-                        </a>
+                        <router-link to="/contact">
+                            Contact
+                        </router-link>
                     </li>
                     <li>
-                        <a href="https://www.creative-tim.com/license">
-                            License
+                        <a href="https://app.termly.io/document/privacy-policy/406ff816-5739-4921-8706-ff7f1182ccf1" target="_blank" rel="noopener">
+                            Privacy Policy
                         </a>
                     </li>
                 </ul>
             </nav>
             <div class="copyright">
-                &copy; {{year}}, Designed by
-                <a href="https:///www.invisionapp.com" target="_blank" rel="noopener" class="text-success">Invision</a>. Coded by
-                <a href="https://binarcode.com" target="_blank" class="text-success" rel="noopener">BinarCode</a> and
-                <a href="https://www.creative-tim.com" target="_blank" class="text-success" rel="noopener">Creative Tim</a>.
+                <a>snoDEV &copy; {{year}} - using <a href="https://nuxtjs.org/" target="_blank" rel="noopener">Nuxt.js</a></a>
             </div>
         </div>
     </footer>

@@ -385,7 +385,7 @@
     },
     head() {
         return {
-            titleTemplate: "%s | about"
+            titleTemplate: "%s | About"
         };
     },
     data() {
