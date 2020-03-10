@@ -14,7 +14,6 @@ const _d82da978 = () => interopDefault(import('../pages/product.vue' /* webpackC
 const _112e0a04 = () => interopDefault(import('../pages/profile.vue' /* webpackChunkName: "pages/profile" */))
 const _519613ae = () => interopDefault(import('../pages/sections.vue' /* webpackChunkName: "pages/sections" */))
 const _7435df4e = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
-const _7a065028 = () => interopDefault(import('../pages/showcase.vue' /* webpackChunkName: "pages/showcase" */))
 const _1df8e970 = () => interopDefault(import('../pages/thankyou.vue' /* webpackChunkName: "pages/thankyou" */))
 const _2baf88e7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -78,10 +77,6 @@ export const routerOptions = {
     path: "/services",
     component: _7435df4e,
     name: "services"
-  }, {
-    path: "/showcase",
-    component: _7a065028,
-    name: "showcase"
   }, {
     path: "/thankyou",
     component: _1df8e970,
