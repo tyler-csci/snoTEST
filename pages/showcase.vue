@@ -37,25 +37,25 @@
                         <h5 class="title">Services</h5>
                         <div class="card">
                             <a href="https://rlcc.netlify.com" target="_blank" rel="noopener">
-                                <img v-lazy="'img/presentation-page/pages/rlccPage.png'" alt="">
+                                <img src="img/presentation-page/pages/rlccPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Contact Pages</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/snodevContactPage.png'" alt="">
+                                <img src="img/presentation-page/pages/snodevContactPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Logins</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/rubikonPage.png'" alt="">
+                                <img src="img/presentation-page/pages/rubikonPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Signups</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/signup.jpg'" alt="">
+                                <img src="img/presentation-page/pages/signup.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -63,19 +63,19 @@
                         <h5 class="title">Landing Pages</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/snodevLandingPage2.png'" alt="">
+                                <img src="img/presentation-page/pages/snodevLandingPage2.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Products</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/gatsbyLandingPage.png'" alt="">
+                                <img src="img/presentation-page/pages/gatsbyLandingPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Blog Posts</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/blog-post.jpg'" alt="">
+                                <img src="img/presentation-page/pages/blog-post.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -83,25 +83,25 @@
                         <h5 class="title">Portfolios</h5>
                         <div class="card">
                             <a href="https://tylerewald.com" target="_blank" rel="noopener">
-                                <img v-lazy="'img/presentation-page/pages/tewaldPage.png'" alt="">
+                                <img src="img/presentation-page/pages/tewaldPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Products</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/blkProductPage.png'" alt="">
+                                <img src="img/presentation-page/pages/blkProductPage.png" alt="">
                             </a>
                         </div>
                         <h5 class="title">Blog Posts</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/blog-posts.jpg'" alt="">
+                                <img src="img/presentation-page/pages/blog-posts.jpg" alt="">
                             </a>
                         </div>
                         <h5 class="title">Contact Pages</h5>
                         <div class="card">
                             <a>
-                                <img v-lazy="'img/presentation-page/pages/blkContactPage.png'" alt="">
+                                <img src="img/presentation-page/pages/blkContactPage.png" alt="">
                             </a>
                         </div>
                     </div>
