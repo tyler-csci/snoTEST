@@ -91,7 +91,7 @@
                             </div>
                             <div class="description">
                                 <h5 class="info-title">Web Development</h5>
-                                <p>Extensive research is done to meet your needs and that of the market. </p>
+                                <p>Development does not start until you are 100% happy with the design of your website.</p>
                             </div>
                         </div>
                         <div class="info info-horizontal">
@@ -100,7 +100,7 @@
                             </div>
                             <div class="description">
                                 <h4 class="info-title">SEO</h4>
-                                <p>Development does not start until you are 100% happy with the design of your website.</p>
+                                <p>Let people find your website fast and easy!</p>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="description">
                                 <h5 class="info-title">Marketing</h5>
-                                <p>Your dream website becomes a reality.</p>
+                                <p>Extensive research is done to meet your needs and that of the market.</p>
                             </div>
                         </div>
                         <div class="info info-horizontal">
@@ -124,8 +124,8 @@
                                 <i class="now-ui-icons education_atom"></i>
                             </div>
                             <div class="description">
-                                <h4 class="info-title">Performance Testing</h4>
-                                <p>Get a full audit on your current website. See how it ranks and how it can be improved.</p>
+                                <h4 class="info-title">Security</h4>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -140,23 +140,26 @@
                 <div class="row">
                     <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
                         <form 
-                            class="index-form"
-                            name="index-form"
+                            name="contact-form"
                             action="/thankyou"
                             method="post"
-                        >
-                        <input type="hidden" name="contact-us" value="contact-us" />
+                            netlify
+                            netlify-honeypot="bot-field">
+                            <input type="hidden" name="contact-us" value="contact-us" />
+                              
                             <fg-input
-                                    class="input-lg"
-                                    placeholder="First Name..."
-                                    v-model="form.firstName"
-                                    addon-left-icon="now-ui-icons users_circle-08">
+                                name="name"
+                                class="input-lg"
+                                placeholder="First Name..."
+                                v-model="form.firstName"
+                                addon-left-icon="now-ui-icons users_circle-08">
                             </fg-input>
                             <fg-input
-                                    class="input-lg"
-                                    placeholder="Email Here..."
-                                    v-model="form.email"
-                                    addon-left-icon="now-ui-icons ui-1_email-85">
+                                name="email"
+                                class="input-lg"
+                                placeholder="Email Here..."
+                                v-model="form.email"
+                                addon-left-icon="now-ui-icons ui-1_email-85">
                             </fg-input>
                             <div class="textarea-container">
                                 <textarea class="form-control"

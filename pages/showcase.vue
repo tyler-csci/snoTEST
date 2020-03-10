@@ -28,7 +28,7 @@
                 <div class="col-md-8 ml-auto mr-auto text-center">
                     <div class="section-description">
                         <h2 class="title">Not sure what you need?</h2>
-                        <h5 class="description">Get some inspiration! Check out some of the components we develop. 
+                        <h5 class="description">Get some inspiration here! 
                         </h5>
                     </div>
                 </div>
