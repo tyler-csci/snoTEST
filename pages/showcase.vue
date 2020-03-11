@@ -37,7 +37,7 @@
                         <h5 class="title">Services</h5>
                         <div class="card">
                             <a href="https://rlcc.netlify.com" target="_blank" rel="noopener">
-                                <img src="img/presentation-page/pages/rlccPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/rlccPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Contact Pages</h5>
