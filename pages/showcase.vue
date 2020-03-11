@@ -43,19 +43,19 @@
                         <h5 class="title">Contact Pages</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/snodevContactPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/snodevContactPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Logins</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/rubikonPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/rubikonPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Signups</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/signup.jpg" alt="">
+                                <img v-lazy="'img/presentation-page/pages/signup.jpg'" alt="">
                             </a>
                         </div>
                     </div>
@@ -69,13 +69,13 @@
                         <h5 class="title">Products</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/gatsbyLandingPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/gatsbyLandingPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Blog Posts</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/blog-post.jpg" alt="">
+                                <img v-lazy="'img/presentation-page/pages/blog-post.jpg'" alt="">
                             </a>
                         </div>
                     </div>
@@ -89,19 +89,19 @@
                         <h5 class="title">Products</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/blkProductPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/blkProductPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Blog Posts</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/blog-posts.jpg" alt="">
+                                <img v-lazy="'img/presentation-page/pages/blog-posts.jpg'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Contact Pages</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/blkContactPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/blkContactPage.png'" alt="">
                             </a>
                         </div>
                     </div>
