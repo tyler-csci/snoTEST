@@ -22,15 +22,14 @@
             </div>
         </div>
 
-        <div class="section section-about-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Simpler. Faster. Better.</h2>
-                        <h5 class="description">SnoDEV uses latest technologies and industry best practices to ensure your website looks and 
-                                performs better than any other. Whether you need a personal site or something for business, SnoDEV is here to 
-                                provide you with a responsive, efficient, secure, and aesthetic website.
-                            </h5>
+        <div class="section">
+            <div class="about-description text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="title">Simpler. Better. Faster.</h2>
+                            <h4>SnoDEV uses latest technologies and industry best practices to ensure your website looks and performs better than any other. Whether you need a personal site or something for business, SnoDEV is here to provide you with a responsive, efficient, secure, and aesthetic website.</h4>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
@@ -38,8 +37,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons objects_globe"></i>
                                 </div>
-                                <h4 class="info-title">Single Page Applications</h4>
-                                <p class="description">Load once. After that, your users won't have to wait when they browse your site.</p>
+                                <h4 class="info-title">ADVISE</h4>
+                                <p class="description">We advise the best route for you.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -47,8 +46,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons education_atom"></i>
                                 </div>
-                                <h4 class="info-title">Server-Sided Rendering</h4>
-                                <p class="description">Better SEO, and faster time-to-content. SSR user experience is dramatically improved from standard websites.</p>
+                                <h4 class="info-title">DECIDE</h4>
+                                <p class="description">You decide what you want.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -56,8 +55,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons education_atom"></i>
                                 </div>
-                                <h4 class="info-title">Progressive Web Applications</h4>
-                                <p class="description">Install, load offline, and get the same experience as a mobile app.</p>
+                                <h4 class="info-title">PROVIDE</h4>
+                                <p class="description">We provide your dream website.</p>
                             </div>
                         </div>
                     </div>

@@ -144,6 +144,7 @@
   });
   export default {
     name: 'contact',
+    layout: 'gray-footer',
     components: {
       InfoSection,
       [Button.name]: Button,

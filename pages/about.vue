@@ -40,8 +40,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons objects_globe"></i>
                                 </div>
-                                <h4 class="info-title">PERFORMANCE</h4>
-                                <p class="description">SnoDEV uses the latest frameworks to ensure your website is optimized to perform at the fastest speed possible.</p>
+                                <h4 class="info-title">Single Page Applications</h4>
+                                <p class="description">Load once. After that, your users won't have to wait when they browse your site.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -49,9 +49,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons education_atom"></i>
                                 </div>
-                                <h4 class="info-title">ACCESSIBILITY</h4>
-                                <p class="description">Everyone should be able to use your website. SnoDEV obtains aesthetics and complies with 
-                                    <a href="http://www.ada.gov">ADA</a> regulations. </p>
+                                <h4 class="info-title">Server Sided Rendering</h4>
+                                <p class="description">Better SEO, and faster time-to-content. SSR user experience is dramatically improved from standard websites.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -59,8 +58,8 @@
                                 <div class="icon icon-info icon-circle">
                                     <i class="now-ui-icons education_atom"></i>
                                 </div>
-                                <h4 class="info-title">SEO</h4>
-                                <p class="description">Climb the ranks of search engines. SnoDEV's technology makes sure that your website's SEO is optimized properly.</p>
+                                <h4 class="info-title">Progressive Web Apps</h4>
+                                <p class="description">Install, load offline, and get the same experience as a mobile app.</p>
                             </div>
                         </div>
                     </div>
@@ -105,6 +104,7 @@
   import initParallax from '@/utils/initParallax'
   export default {
     name: 'about-us',
+    layout: 'gray-footer',
     components: {
       Card,
       InfoSection,

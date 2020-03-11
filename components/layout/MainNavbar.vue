@@ -2,43 +2,44 @@
     <navbar position="fixed"
             :color-on-scroll="colorOnScroll"
             menu-classes="ml-auto">
-        <template slot-scope>
-                <router-link to="/">
+        <template slot-scope="{toggle, isToggled}">
+                <nuxt-link to="/">
                     <img src="/img/logo.png" width="50" height="50" alt="snoDEV logo">
-                </router-link>
+                </nuxt-link>
+                
         </template>
 
         <template slot="navbar-menu">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item category">
-                    <router-link to="/" class="nav-link">
+                    <nuxt-link to="/" class="nav-link">
                         Home
-                    </router-link>
+                    </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/services" class="nav-link category">
+                    <nuxt-link to="/services" class="nav-link category">
                         Services
-                    </router-link>
+                    </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/showcase" class="nav-link category" >
+                    <nuxt-link to="/showcase" class="nav-link category" >
                         Showcase
-                    </router-link>
+                    </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/about" class="nav-link category">
+                    <nuxt-link to="/about" class="nav-link category">
                         About
-                    </router-link>
+                    </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/blog-posts" class="nav-link category">
+                    <nuxt-link to="/blog-posts" class="nav-link category">
                         Blog
-                    </router-link>
+                    </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/contact" class="nav-link category">
+                    <nuxt-link to="/contact" class="nav-link category">
                         Contact
-                    </router-link>
+                    </nuxt-link>
                 </li>
             </ul>
         </template>
@@ -60,8 +61,9 @@
       NavbarToggleButton,
       NavLink,
       [Popover.name]: Popover
-    }
+    },
   }
+
 </script>
 
 <style scoped>
