@@ -63,7 +63,7 @@
                         <h5 class="title">Landing Pages</h5>
                         <div class="card">
                             <a>
-                                <img src="img/presentation-page/pages/snodevLandingPage2.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/snodevLandingPage2.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Products</h5>
@@ -83,7 +83,7 @@
                         <h5 class="title">Portfolios</h5>
                         <div class="card">
                             <a href="https://tylerewald.com" target="_blank" rel="noopener">
-                                <img src="img/presentation-page/pages/tewaldPage.png" alt="">
+                                <img v-lazy="'img/presentation-page/pages/tewaldPage.png'" alt="">
                             </a>
                         </div>
                         <h5 class="title">Products</h5>
